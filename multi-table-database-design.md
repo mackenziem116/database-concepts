@@ -50,7 +50,7 @@ Since `interests` may list more than one thing, it would be smart to pull `inter
 
 **What would this new table have?** Well, obviously an **`interest`** column, and since we want first normal form, it will need a primary key, which we'll call, **`int_id`**. We also need a way to link the two tables. One way is to use **`first_name`** and **`last_name`**. So the two tables will look something like this:
 
-<img src="img2.png" width="400" height="350"/>
+<img src="img2.png" width="400" height="150"/>
 
 Now to query the `interests` table we would need to write the folowing `SELECT` statement:
 
@@ -69,7 +69,7 @@ This is incredibly inneficient, and it does not account for the possibility that
 
 Editing the before example, we now get these two tables:
 
-<img src="img3.png" width="400" height="350">
+<img src="img3.png" width="400" height="150">
 
 #### Facts of the Foreign Key
 
